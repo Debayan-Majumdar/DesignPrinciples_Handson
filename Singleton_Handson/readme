@@ -1,0 +1,23 @@
+Singleton Pattern- Hands on exercise.
+
+An online shopping web application makes multiple calls from different services to the database. The requirement is to restrict creation of multiple data base connection objects everytime a caller requests for a connection object. Please implement a DBCon class which will return the same instance of the class, irrespective of the requests
+
+Exercise Steps
+
+1. Create a DBConn class with a static private member – ‘instance’ to hold its own instance.
+
+2. Create a new instance of the object and assign it to the instance variable.
+
+3. Make the constructor of the class as private
+
+4. Implement a ‘getInstance()’ static method to return the instance variable.
+
+5. Implement a caller method to call this method to get the instance
+
+Points to ponder
+
+1. What will happen if you don’t make the constructor as private?
+
+2. What happens to the class if static keywords are attached to a member.?
+
+3. Will you be able to instantiate the object without ‘new’ operator?
