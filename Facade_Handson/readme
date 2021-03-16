@@ -1,0 +1,21 @@
+
+Façade Pattern Hands On
+
+We have a scenario where we have set of classes to draw different shapes. The requirement is to create a façade for these objects so that they are not exposed to the client.
+
+
+Exercise
+
+1. Create /Implementation of the interfaces with their methods as shown in the above UML diagram
+
+2. Implement the methods to the draw to print the name of the shape of the class
+
+3. Implement a ShapeMaker class to create simple methods to draw each of the shape
+
+4. Implement a Demo class which will invoke the façade and use it to draw the shapes
+
+5. Validate the output by running the code snippet
+
+6. Please provide any two business scenarios where Façade pattern will be useful
+
+7. Also how would you handle the situation if there are more shapes added in the future?
