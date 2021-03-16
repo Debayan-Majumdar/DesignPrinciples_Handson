@@ -1,0 +1,13 @@
+Consider a scenario in which there is an app that's developed in the US which returns the top speed of luxury cars in miles per hour (MPH). Now we need to use the same app for our client in the UK that wants the same results but in kilometers per hour (km/h).
+
+To deal with this problem, we'll create an adapter which will convert the values and give us the desired results
+
+Exercise steps:
+
+Now the requirement is to another feature which will convert the price of a car from USD to Euro using the same Adapter classes.
+
+1. Implement the changes to the classes
+
+2. Verify the output
+
+3. Provide 1 business case where you think the pattern can be used.
